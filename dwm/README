@@ -1,3 +1,13 @@
+so im stupid i made a thing that uses a script to kill dwm aswell as xorg
+if you want this to work properly make a file called kill.sh and in it put
+
+#!/bin/bash
+killall /usr/lib/Xorg
+
+and put in in your home folder also do a chmod +x kill.sh
+
+==================================================================================
+
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
